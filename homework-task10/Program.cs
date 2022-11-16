@@ -12,7 +12,7 @@ int AverageNumber(int num)
 }
 
 int result = AverageNumber(number);
-if (number > 99 && number < 999)
+if (number > 99 &&  number <= 999)
 {
     Console.WriteLine($"Средняя цифра числа: {number} --> {result}");
 }
